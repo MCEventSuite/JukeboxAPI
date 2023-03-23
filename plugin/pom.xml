@@ -20,7 +20,7 @@
         </repository>
         <repository>
             <id>sk89-repo</id>
-            <url>https://maven.sk89q.com/repo/</url>
+            <url>https://maven.enginehub.org/repo/</url>
         </repository>
     </repositories>
 
@@ -39,7 +39,7 @@
         <dependency>
             <groupId>io.socket</groupId>
             <artifactId>socket.io-client</artifactId>
-            <version>1.0.0</version>
+            <version>1.0.2</version>
             <scope>compile</scope>
         </dependency>
         <!-- We need to overwrite the outdated dependency used by socket.io-client -->
@@ -65,7 +65,7 @@
             <plugin>
                 <groupId>org.projectlombok</groupId>
                 <artifactId>lombok-maven-plugin</artifactId>
-                <version>1.18.6.0</version>
+                <version>1.18.20.0</version>
                 <executions>
                     <execution>
                         <phase>generate-sources</phase>

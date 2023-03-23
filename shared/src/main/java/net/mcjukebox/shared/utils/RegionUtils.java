@@ -19,9 +19,7 @@ public class RegionUtils {
     }
 
     public net.mcjukebox.shared.api.RegionProvider getProvider() {
-        if (classExists("com.sk89q.worldguard.bukkit.WGBukkit")) {
-            return new net.mcjukebox.shared.wg6.RegionProvider();
-        } else if (classExists("com.sk89q.worldguard.bukkit.WorldGuardPlugin")) {
+        if (classExists("com.sk89q.worldguard.bukkit.WorldGuardPlugin")) {
             return new net.mcjukebox.shared.wg7.RegionProvider();
         } else {
             return new RegionProvider() {

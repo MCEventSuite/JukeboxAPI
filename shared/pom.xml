@@ -16,16 +16,11 @@
     <repositories>
         <repository>
             <id>sk89-repo</id>
-            <url>https://maven.sk89q.com/repo/</url>
+            <url>https://maven.enginehub.org/repo/</url>
         </repository>
     </repositories>
 
     <dependencies>
-        <dependency>
-            <groupId>com.oliverdunk</groupId>
-            <artifactId>mcjukebox-region-providers-wg6</artifactId>
-            <version>2.6.8-RELEASE</version>
-        </dependency>
         <dependency>
             <groupId>com.oliverdunk</groupId>
             <artifactId>mcjukebox-region-providers-wg7</artifactId>
